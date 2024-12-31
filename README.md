@@ -1,5 +1,3 @@
-A new Flutter project.
-
 # BMI Calculation App
 
 This is a simple BMI (Body Mass Index) calculation app.
