@@ -28,11 +28,11 @@ String getBmiMessage(double bmi) {
 class _HomeState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    double? h;
-    double? w;
+    //double? h;
+    //double? w;
     final _controllerWeight = TextEditingController();
     final _controllerHeight = TextEditingController();
-    final bloc = BlocProvider.of<BlocState>(context);
+    // final bloc = BlocProvider.of<BlocState>(context);
     //final res = bloc.state.weight / (bloc.state.height * bloc.state.height);
     return Center(
       child: Container(

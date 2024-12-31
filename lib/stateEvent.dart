@@ -22,13 +22,13 @@ class BlocState extends Bloc<bmiEvent, StateLogic> {
     on<updateHeight>(
       (event, emit) {
         h = event.height / 100;
-        emit(state.copyWith(h: event.height));
+        // emit(state.copyWith(h: event.height));
       },
     );
     on<updateWeight>(
       (event, emit) {
         w = event.weight;
-        emit(state.copyWith(w: event.weight));
+        //emit(state.copyWith(w: event.weight));
       },
     );
     on<CalculateEvent>((event, emit) {
